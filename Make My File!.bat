@@ -5,3 +5,5 @@ cd SplatPost
 python bin2c.py image.data > image.c
 make
 teensy_loader_cli -mmcu=at90usb1286 -w Joystick.hex
+echo the file is finished :D
+cmd /k
